@@ -1,6 +1,6 @@
 import { Router } from 'express';
 
-import EmojiController from './SampleCollection/EmojiController.js';
+import EmojiController from '@/controllers/SampleCollection/EmojiController';
 
 const router = Router();
 

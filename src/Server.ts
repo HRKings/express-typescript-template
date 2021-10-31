@@ -4,8 +4,8 @@ import helmet from 'helmet';
 import cors from 'cors';
 import dotenv from 'dotenv';
 
-import { NotFoundHandler, ErrorHandler } from './utils/Middlewares.js';
-import SampleController from './controllers/SampleController.js';
+import { NotFoundHandler, ErrorHandler } from '@/utils/Middlewares';
+import SampleController from '@/controllers/SampleController';
 
 dotenv.config();
 

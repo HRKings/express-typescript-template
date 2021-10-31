@@ -1,5 +1,5 @@
 import { Router } from 'express';
-import getEmojisFromSomewhere from '../../services/EmojiService.js';
+import getEmojisFromSomewhere from '@/services/EmojiService';
 
 const router = Router();
 

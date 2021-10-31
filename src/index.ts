@@ -1,4 +1,4 @@
-import server from './Server.js';
+import server from '@/Server';
 
 const port = process.env.EXPRESS_PORT || 5000;
 
