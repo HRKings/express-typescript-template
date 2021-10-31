@@ -1,7 +1,6 @@
 {
   "name": "express-typescript-template",
   "version": "1.0.0",
-  "type": "module",
   "description": "A basic starter template for a express API with typescript support",
   "main": "dist/src/index.js",
   "scripts": {
