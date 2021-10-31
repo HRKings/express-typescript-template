@@ -14,6 +14,7 @@ specifiers:
   '@types/supertest': ^2.0.11
   '@typescript-eslint/eslint-plugin': ^5.1.0
   '@typescript-eslint/parser': ^5.1.0
+  babel-plugin-module-resolver: ^4.1.0
   cors: ^2.8.5
   dotenv: ^10.0.0
   eslint: ^8.1.0
@@ -49,6 +50,7 @@ devDependencies:
   '@types/supertest': 2.0.11
   '@typescript-eslint/eslint-plugin': 5.1.0_273a00ec265649c49755eee7222c1c12
   '@typescript-eslint/parser': 5.1.0_eslint@8.1.0+typescript@4.4.4
+  babel-plugin-module-resolver: 4.1.0
   eslint: 8.1.0
   eslint-config-airbnb-base: 14.2.1_f3fc3a8f1727ab01eb417b5ed5016c22
   eslint-plugin-import: 2.25.2_eslint@8.1.0
@@ -1679,6 +1681,17 @@ packages:
       object.assign: 4.1.2
     dev: true
 
+  /babel-plugin-module-resolver/4.1.0:
+    resolution: {integrity: sha512-MlX10UDheRr3lb3P0WcaIdtCSRlxdQsB1sBqL7W0raF070bGl1HQQq5K3T2vf2XAYie+ww+5AKC/WrkjRO2knA==}
+    engines: {node: '>= 8.0.0'}
+    dependencies:
+      find-babel-config: 1.2.0
+      glob: 7.2.0
+      pkg-up: 3.1.0
+      reselect: 4.1.1
+      resolve: 1.20.0
+    dev: true
+
   /babel-plugin-polyfill-corejs2/0.2.3_@babel+core@7.16.0:
     resolution: {integrity: sha512-NDZ0auNRzmAfE1oDDPW2JhzIMXUk+FFe2ICejmt5T4ocKgiQx3e0VCRx9NCAidcMtL2RUZaWtXnmjTCkx0tcbA==}
     peerDependencies:
@@ -2440,6 +2453,14 @@ packages:
       unpipe: 1.0.0
     dev: false
 
+  /find-babel-config/1.2.0:
+    resolution: {integrity: sha512-jB2CHJeqy6a820ssiqwrKMeyC6nNdmrcgkKWJWmpoxpE8RKciYJXCcXRq1h2AzCo5I5BJeN2tkGEO3hLTuePRA==}
+    engines: {node: '>=4.0.0'}
+    dependencies:
+      json5: 0.5.1
+      path-exists: 3.0.0
+    dev: true
+
   /find-cache-dir/2.1.0:
     resolution: {integrity: sha512-Tq6PixE0w/VMFfCgbONnkiQIVol/JJL7nRMi20fqzA4NRs9AfeqMGeRdPi3wIhYkxjeBaWh2rxwapn5Tu3IqOQ==}
     engines: {node: '>=6'}
@@ -2925,6 +2946,11 @@ packages:
     resolution: {integrity: sha1-nbe1lJatPzz+8wp1FC0tkwrXJlE=}
     dev: true
 
+  /json5/0.5.1:
+    resolution: {integrity: sha1-Hq3nrMASA0rYTiOWdn6tn6VJWCE=}
+    hasBin: true
+    dev: true
+
   /json5/1.0.1:
     resolution: {integrity: sha512-aKS4WQjPenRxiQsC93MNfjx+nbF4PAdYzmd/1JIj8HYzqfbu86beTuNgXDzPknWk0n0uARlyewZo4s++ES36Ow==}
     hasBin: true
@@ -3386,6 +3412,13 @@ packages:
       find-up: 3.0.0
     dev: true
 
+  /pkg-up/3.1.0:
+    resolution: {integrity: sha512-nDywThFk1i4BQK4twPQ6TA4RT8bDY96yeuCVBWL3ePARCiEKDRSrNGbFIgUJpLp+XeIR65v8ra7WuJOFUBtkMA==}
+    engines: {node: '>=8'}
+    dependencies:
+      find-up: 3.0.0
+    dev: true
+
   /prelude-ls/1.2.1:
     resolution: {integrity: sha512-vkcDPrRZo1QZLbn5RLGPpg/WmIQ65qoWWhcGKf/b5eplkkarX0m9z8ppCat4mlOqUsWpyNuYgO3VRyrYHSzX5g==}
     engines: {node: '>= 0.8.0'}
@@ -3514,6 +3547,10 @@ packages:
   /require-directory/2.1.1:
     resolution: {integrity: sha1-jGStX9MNqxyXbiNE/+f3kqam30I=}
     engines: {node: '>=0.10.0'}
+    dev: true
+
+  /reselect/4.1.1:
+    resolution: {integrity: sha512-Jjt8Us6hAWJpjucyladHvUGR+q1mHHgWtGDXlhvvKyNyIeQ3bjuWLDX0bsTLhbm/gd4iXEACBlODUHBlLWiNnA==}
     dev: true
 
   /resolve-from/4.0.0:
