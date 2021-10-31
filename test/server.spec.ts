@@ -1,7 +1,7 @@
 import { describe, it } from 'mocha';
 import request from 'supertest';
 
-import server from '../src/Server.js';
+import server from '@/Server';
 
 describe('Server', () => {
   describe('Not Found Handler', () => {
