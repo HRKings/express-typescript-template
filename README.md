@@ -67,5 +67,6 @@ pnpm test
 If you just want to compile your code and run (in a production environment for example), just use:
 
 ```
+pnpm run build
 pnpm start
 ```
